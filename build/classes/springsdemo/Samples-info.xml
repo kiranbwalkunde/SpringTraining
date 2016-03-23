@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?
+<root>
+    <Samples>
+        <properties>
+        <property name="prefix">
+            <value>30</value>
+        </property>
+        <property name="suffix">
+            <value>A</value>
+        </property>
+        <property name="initial">
+            <value>100000</value>
+        </property>
+        <property name="suffixes">
+            <list>
+                <value>A</value>
+                <bean class="java.net.URL">
+                    <constructor-arg value="http" />
+                    <constructor-arg value="www.apress.com" />
+                    <constructor-arg value="/" />
+                </bean>
+                <null />
+            </list>
+        </property>
+            
+        </properties>
+        
+        
+    </Samples>
+    
+</root>
